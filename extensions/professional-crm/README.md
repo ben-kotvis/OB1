@@ -155,12 +155,13 @@ If you build Extension 6, the `link_contact_to_professional_crm` tool works in r
 ## Available Tools
 
 1. **`add_professional_contact`** — Add a contact (name, company, title, email, phone, linkedin_url, how_we_met, tags, notes)
-2. **`search_contacts`** — Search by name, company, or tags with ILIKE
-3. **`log_interaction`** — Log a touchpoint (contact_id, interaction_type, summary, follow_up_needed, follow_up_notes). Auto-updates contact's last_contacted timestamp.
-4. **`get_contact_history`** — Get a contact's full profile + all interactions ordered by date
-5. **`create_opportunity`** — Create an opportunity/deal linked to a contact (title, description, stage, value, expected_close_date)
-6. **`get_follow_ups_due`** — List contacts with follow_up_date in the past or next N days
-7. **`link_thought_to_contact`** — **CROSS-EXTENSION BRIDGE** — Takes a thought_id and contact_id, retrieves the thought from your core Open Brain, and links it to the contact record
+2. **`update_professional_contact`** — Update a contact (name, company, title, email, phone, linkedin_url, how_we_met, tags, notes)
+3. **`search_contacts`** — Search by name, company, or tags with ILIKE
+4. **`log_interaction`** — Log a touchpoint (contact_id, interaction_type, summary, follow_up_needed, follow_up_notes). Auto-updates contact's last_contacted timestamp.
+5. **`get_contact_history`** — Get a contact's full profile + all interactions ordered by date
+6. **`create_opportunity`** — Create an opportunity/deal linked to a contact (title, description, stage, value, expected_close_date)
+7. **`get_follow_ups_due`** — List contacts with follow_up_date in the past or next N days
+8. **`link_thought_to_contact`** — **CROSS-EXTENSION BRIDGE** — Takes a thought_id and contact_id, retrieves the thought from your core Open Brain, and links it to the contact record
 
 ## Expected Outcome
 
